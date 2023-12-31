@@ -16,4 +16,5 @@ dmenu-numbers<br/>
 installation
 ------------
 edit config.mk to match your system<br/>
-type `sudo make install` to build dmenu, then install.
+this will fuck up all your scripts beginning with `dmenu*` if stored in `bin/dmenu*` as outlined in config.mk.<br/>
+type `doas make install` to build dmenu, then install.
