@@ -5,13 +5,14 @@ dmenu is an efficient dynamic menu for X.
 
 patches
 ------------
-dmenu-border<br/>
-dmenu-caseinsensitive<br/>
-dmenu-center<br/>
-dmenu-date<br/>
-dmenu-listfullwidth<br/>
-dmenu-mousesupport<br/>
-dmenu-numbers<br/>
+* dmenu-border<br/>
+* dmenu-caseinsensitive<br/>
+* dmenu-center<br/>
+* dmenu-date<br/>
+* dmenu-listfullwidth<br/>
+* dmenu-mousesupport<br/>
+* dmenu-numbers<br/>
+* dmenu-alpha
 
 installation
 ------------
