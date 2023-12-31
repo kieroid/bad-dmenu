@@ -5,7 +5,7 @@ static int colorprompt = 1; /* i forgot what this does, but im keeping it on */
 static int topbar = 1; /* -b  option; if 0, dmenu appears at bottom     */
 static int centered = 1; /* -c option; centers dmenu on screen */
 static int min_width = 500; /* minimum width when centered */
-static const unsigned int alpha = 0x65;     /* Amount of opacity. 0xff is opaque */
+static const unsigned int alpha = 0x88;     /* Amount of opacity. 0xff is opaque */
 
 /* colors, fonts, and words */
 static const char *fonts[] = {"monospace:size=10"};
