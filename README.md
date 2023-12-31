@@ -19,3 +19,9 @@ installation
 edit config.mk to match your system<br/>
 this will fuck up all your scripts beginning with `dmenu*` if stored in `bin/dmenu*` as outlined in config.mk.<br/>
 type `doas make install` to build dmenu, then install.
+
+credits
+-------
+take a look at suckless and their dmenu.<br/>
+its very easy to use, and i like the functionality.<br/>
+:-)
