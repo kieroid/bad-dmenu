@@ -22,7 +22,7 @@ installation
 ------------
 clone the repository<br/>
 edit config.mk to match your system<br/>
-this will fuck up all your scripts beginning with `dmenu*` if stored in `bin/dmenu*` as outlined in config.mk<br/>
+this will mess up all your scripts beginning with `dmenu*` if stored in `bin/dmenu*` as outlined in config.mk<br/>
 type `doas make install` to build dmenu, then install
 
 credits
