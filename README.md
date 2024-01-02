@@ -20,6 +20,7 @@ patches
 
 scripts
 -------
+* dmenu_path
 * dmenu_run
 * dmenu_run_history
 
