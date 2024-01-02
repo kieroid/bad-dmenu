@@ -8,15 +8,20 @@ screenshot
 ![dmenu-patched](dmenu_screenshot.png?raw=true)
 
 patches
-------------
-* dmenu-border<br/>
-* dmenu-caseinsensitive<br/>
-* dmenu-center<br/>
-* dmenu-date<br/>
-* dmenu-listfullwidth<br/>
-* dmenu-mousesupport<br/>
-* dmenu-numbers<br/>
+-------
+* dmenu-border
+* dmenu-caseinsensitive
+* dmenu-center
+* dmenu-date
+* dmenu-listfullwidth
+* dmenu-mousesupport
+* dmenu-numbers
 * dmenu-alpha
+
+scripts
+-------
+* dmenu_run
+* dmenu_run_history
 
 installation
 ------------
