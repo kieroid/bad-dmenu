@@ -3,6 +3,10 @@ suckless dmenu
 simple fork of dmenu with the patches that i used pre-applied.<br/>
 dmenu is an efficient dynamic menu for X.
 
+screenshot
+----------
+![dmenu-patched](dmenu_screenshot.png?raw=true)
+
 patches
 ------------
 * dmenu-border<br/>
