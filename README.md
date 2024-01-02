@@ -1,6 +1,6 @@
 suckless dmenu
 ============================
-simple fork of dmenu with the patches that i used pre-applied.<br/>
+simple fork of dmenu with the patches and scripts that i use pre-applied.<br/>
 dmenu is an efficient dynamic menu for X.
 
 screenshot
