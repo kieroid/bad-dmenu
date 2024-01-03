@@ -96,7 +96,7 @@ calcoffsets(void)
 	int i, n;
 
 	if (lines > 0)
-		n = (lines * bh) - 1;
+		n = lines * bh;
 	else
 		n = mw - (promptw + inputw + TEXTW("<") + TEXTW(">") + TEXTW(numbers));
 	/* calculate which items will begin the next page and previous page */
@@ -161,22 +161,23 @@ drawitem(struct item *item, int x, int y, int w)
 	else
 		drw_setscheme(drw, scheme[SchemeNorm]);
 
-	return drw_text(drw, x, y, w, bh, lrpad / 2, item->text, 0);
+	return drw_text(drw, x, y, w + 3 * lrpad, bh, lrpad / 2, item->text, 0);
 }
 
 static int
 drawdate(int x, int y, int w)
 {
-    char date[128];
-    time_t t = time(NULL);
-    struct tm *tm = localtime(&t);
+	int n = 100;
+	char date[64];
+	time_t t = time(NULL);
+	struct tm *tm = localtime(&t);
 
-    /* Hour:Minute DayOfTheWeek DayOfTheMonth Month Year */
-    strftime(date, sizeof(date), "%H:%M %A %d %B %Y", tm);
+	/* Hour:Minute DayOfTheWeek DayOfTheMonth Month Year */
+	strftime(date, sizeof(date), "%b %d %I:%M %p", tm);
 
 	drw_setscheme(drw, scheme[SchemeSel]);
 
-	int r = drw_text(drw, x, y, w, bh, lrpad / 2, date, 0);
+	int r = drw_text(drw, x + n, y, w - x - 2 * n, bh, lrpad * 1.8, date, 0);
 	return r;
 }
 
