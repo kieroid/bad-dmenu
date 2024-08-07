@@ -12,6 +12,7 @@ patches
 * dmenu-border
 * dmenu-caseinsensitive
 * dmenu-centre
+* dmenu-listfullwidth
 
 scripts
 -------
