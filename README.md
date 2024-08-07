@@ -10,6 +10,7 @@ screenshot
 patches
 -------
 * dmenu-border
+* dmenu-caseinsensitive
 
 scripts
 -------
