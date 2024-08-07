@@ -9,7 +9,7 @@ screenshot
 
 patches
 -------
-
+* dmenu-border
 
 scripts
 -------
