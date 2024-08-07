@@ -11,6 +11,7 @@ patches
 -------
 * dmenu-border
 * dmenu-caseinsensitive
+* dmenu-centre
 
 scripts
 -------
