@@ -13,10 +13,12 @@ patches
 * dmenu-border
 * dmenu-caseinsensitive
 * dmenu-centre
+* dmenu-date
 * dmenu-listfullwidth
 * dmenu-mousesupport
 * dmenu-mousesupport-motion
 * dmenu-numbers
+* custom edits made by me
 
 scripts
 -------
