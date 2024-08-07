@@ -9,6 +9,7 @@ screenshot
 
 patches
 -------
+* dmenu-alpha
 * dmenu-border
 * dmenu-caseinsensitive
 * dmenu-centre
