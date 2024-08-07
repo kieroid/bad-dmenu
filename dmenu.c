@@ -167,7 +167,7 @@ drawitem(struct item *item, int x, int y, int w)
 static int
 drawdate(int x, int y, int w)
 {
-	int n = 100;
+	int n = 3;
 	char date[64];
 	time_t t = time(NULL);
 	struct tm *tm = localtime(&t);
@@ -177,7 +177,7 @@ drawdate(int x, int y, int w)
 
 	drw_setscheme(drw, scheme[SchemeSel]);
 
-	int r = drw_text(drw, x + n, y, w - x - 2 * n, bh, lrpad * 1.8, date, 0);
+	int r = drw_text(drw, x * n, y, w - x * n * 1.76, bh, lrpad, date, 0);
 	return r;
 }
 
