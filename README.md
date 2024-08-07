@@ -15,6 +15,7 @@ patches
 * dmenu-centre
 * dmenu-listfullwidth
 * dmenu-mousesupport
+* dmenu-mousesupport-motion
 * dmenu-numbers
 
 scripts
