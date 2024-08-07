@@ -14,6 +14,7 @@ patches
 * dmenu-caseinsensitive
 * dmenu-centre
 * dmenu-listfullwidth
+* dmenu-mousesupport
 * dmenu-numbers
 
 scripts
