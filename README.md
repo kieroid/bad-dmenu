@@ -14,6 +14,7 @@ patches
 * dmenu-caseinsensitive
 * dmenu-centre
 * dmenu-date
+* dmenu-desktoponly
 * dmenu-listfullwidth
 * dmenu-mousesupport
 * dmenu-mousesupport-motion
